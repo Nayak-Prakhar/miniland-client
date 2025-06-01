@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MiniLand</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start-screen">
+    <h1>MiniLand</h1>
+    <button onclick="joinGame()">Join Game</button>
+  </div>
+
+  <div id="game-area" hidden>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <div id="players-list"></div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
