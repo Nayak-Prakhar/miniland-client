@@ -9,7 +9,7 @@ function joinGame() {
   document.getElementById("start-screen").hidden = true;
   document.getElementById("game-area").hidden = false;
 
-  socket = io("wss://RENDER_BACKEND_URL"); // Replace this later
+  socket = io("wss://miniland-server.onrender.com");// Replace this later
   socket.emit("join", playerName);
 
   socket.on("state", gameState => {
