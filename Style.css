@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+#start-screen {
+  padding-top: 100px;
+}
+
+canvas {
+  background: #222;
+  margin: 20px auto;
+  display: block;
+}
